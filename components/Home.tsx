@@ -4,12 +4,16 @@ import Sample from '../public/sample.jpg'
 import { Layout, Text, Page, Code, Link, Snippet } from '@vercel/examples-ui'
 
 import board from '../public/board.jpg'
+import Header from './Header'
+import Footer from './Footer'
 
 function Home() {
   const { route } = useRouter()
   const viewport = route.replace('/_viewport/', '')
 
   return (
+    <>
+    <Header />
     <Page>
       <section className="flex flex-col gap-6">
         <Text variant="h1">App name</Text>
@@ -18,7 +22,6 @@ function Home() {
         <Text>Our teams goal is to make everyone enjoy an easy and convenient digital world, not a difficult and complex digital world.
           Unique thing about this app Practical information access and utilization, such as search methods Simple buttons and intuitive clicks aimed at the elderly</Text>
 
-        
         <Text variant="h2">Unique thing about this app</Text>
         <Text> Practical information access and utilization, such as search methods
           Simple buttons and intuitive clicks aimed at the elderly </Text>
@@ -67,17 +70,9 @@ function Home() {
           the correct page:
         </Text>
       </section>
-
-      <section className="flex flex-col gap-6 mt-12">
-        <Text variant="h2">Contact Information</Text>
-        <Text>
-          e-mail: @
-          instagram: @000000
-          phone: 
-          FAQ
-        </Text>
-      </section>
     </Page>
+    <Footer />
+    </>
   )
 }
 
