@@ -4,8 +4,8 @@ import Sample from '../public/sample.jpg'
 import { Layout, Text, Page, Code, Link, Snippet } from '@vercel/examples-ui'
 
 import board from '../public/board.jpg'
-import Header from '../components/Header'
-import Footer from '../components/Footer'
+import Header from './Header'
+import Footer from './Footer'
 
 function Home() {
   const { route } = useRouter()
@@ -16,7 +16,7 @@ function Home() {
     <Header />
     <Page>
       <section className="flex flex-col gap-6">
-        <Text variant="h1">어플리케이션</Text>
+        <Text variant="h1">App name</Text>
         <Image src={Sample} alt="Middleware logging implementation" />
         <Text variant="h2">Team Misson</Text>
         <Text>Our teams goal is to make everyone enjoy an easy and convenient digital world, not a difficult and complex digital world.
