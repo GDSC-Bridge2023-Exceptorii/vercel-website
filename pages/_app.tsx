@@ -6,7 +6,7 @@ import { getLayout } from '@vercel/examples-ui'
 import '@vercel/examples-ui/globals.css'
 
 function App({ Component, pageProps }: AppProps) {
-  const Layout = getLayout<LayoutProps>(Component)
+  //const Layout = getLayout<LayoutProps>(Component)
 
   return (
       <Component {...pageProps} />

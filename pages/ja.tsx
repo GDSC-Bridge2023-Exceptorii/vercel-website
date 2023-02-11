@@ -15,7 +15,7 @@ function Home() {
     <>
     <Header />
     <Page>
-      <section className="flex flex-col gap-6">
+      <section className="flex flex-col gap-6" >
         <Text variant="h1">アプリ</Text>
         <Image src={Sample} alt="Middleware logging implementation" />
         <Text variant="h2">Team Misson</Text>
@@ -44,7 +44,7 @@ function Home() {
         </Text>
       </section>
 
-      <section className="flex flex-col gap-6 mt-12">
+      <section className="flex flex-col gap-6 mt-12" >
         <Text variant="h2">Used technologies</Text>
         <Image src={board} alt="Middleware logging implementation" />
         <Text>
