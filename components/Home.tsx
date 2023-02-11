@@ -11,7 +11,8 @@ function Home() {
   return (
     <Page>
       <section className="flex flex-col gap-6">
-        <Text variant="h1">User-Agent Based Rendering</Text>
+        <Text variant="h1">App name</Text>
+        <Text>Documents about the app (below is still suitable)</Text>
         <Text>
           Sometimes the desktop version of our application differs a lot from
           our mobile version, because the UI is different or because we load
@@ -28,7 +29,8 @@ function Home() {
       </section>
 
       <section className="flex flex-col gap-6 mt-12">
-        <Text variant="h2">Folder structure</Text>
+        <Text variant="h2">SDGs: who</Text>
+        <Text>Documents about the SDGs(below is still suitable)</Text>
         <Text>
           We will rewrite our user to different pages based on its User-Agent so
           we need to have a different page for every viewport we want to
@@ -50,7 +52,7 @@ function Home() {
       </section>
 
       <section className="flex flex-col gap-6 mt-12">
-        <Text variant="h2">Checking the User-Agent</Text>
+        <Text variant="h2">Team member</Text>
         <Text>
           In the middleware, we now check the User-Agent header and rewrite to
           the correct page:
@@ -82,13 +84,13 @@ export function middleware(req) {
         <Image src={board} alt="Middleware logging implementation" />
       </section>
 
-      <section className="flex flex-col gap-6 mt-12">
+      {/* <section className="flex flex-col gap-6 mt-12">
         <Text variant="h2">Result</Text>
         <Text>
           This page is using this strategy, try it out in different devices and
           you will see the message below changing accordingly:
         </Text>
-      </section>
+      </section> */}
 
       <p className="bg-black text-white font-mono text-center p-6 rounded-lg text-lg leading-6 mt-12">
         This page was loaded on a <b>{viewport}</b> device.
