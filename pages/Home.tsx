@@ -135,9 +135,8 @@ Simple buttons and intuitive clicks aimed at the elderly.Always with an eye on c
           <Text variant="h2">Used technologies</Text>
           <Image src={tech} alt="Middleware logging implementation" />
           <Text>
-            eldy app will be a friendly guide for you.
-            Get free training on eldy
-            (I will also add a kind explanation.)
+            Eldy will be a friendly guide for you.
+            Get free training on eldy.Eldy uses Machine Learning techniques to help classify fake news through training on thousands of real datasets, on summarizing articles and news, and on suggesting which tutorials each demographic of users should do first
           </Text>
       </section>
     </div>
@@ -180,6 +179,12 @@ Simple buttons and intuitive clicks aimed at the elderly.Always with an eye on c
         <div style= {style3}>
         <Text variant="h2">Team member</Text>
         </div>
+        <div>Irfan NS</div>
+        <div>Jaewon Cho</div>
+        <div>yuwookyeong</div>
+        <div>jeonge</div>
+        <div>Seohyun Lee</div>
+        <div>Yamaguchi Shuhei</div>
       </section>
       </div>
     </div>
