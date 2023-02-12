@@ -180,6 +180,12 @@ Simple buttons and intuitive clicks aimed at the elderly.Always with an eye on c
         <div style= {style3}>
         <Text variant="h2">Team member</Text>
         </div>
+        <div>Irfan NS</div>
+        <div>Jaewon Cho</div>
+        <div>yuwookyeong</div>
+        <div>jeonge</div>
+        <div>Seohyun Lee</div>
+        <div>Yamaguchi Shuhei</div>
       </section>
       </div>
     </div>
